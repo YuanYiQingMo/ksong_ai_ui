@@ -114,7 +114,7 @@ const aiData = [
   },
 ];
 
-let currentData: object = ref({ id: 1, text: `` });
+let currentData = ref({ id: 1, text: `` });
 let current_model_id = 1;
 
 function upload_question() {}
