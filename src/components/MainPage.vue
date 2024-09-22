@@ -5,7 +5,7 @@
         <img height="100%" src="../assets/ai_logo.png" />
       </template>
     </v-app-bar>
-    <v-navigation-drawer>
+    <v-navigation-drawer :v-model="true">
       <v-list v-model:selected="current_model_id">
         <v-list-item class="elevation-24" title="便准规范"></v-list-item>
         <v-divider></v-divider>
@@ -49,15 +49,15 @@ import { ref } from 'vue';
 
 const StandardItem = [
   {
-    name: "通用要求",
+    name: "压力容器设计模型",
     value: 1,
   },
   {
-    name: "材料",
+    name: "塔器设计模型",
     value: 2,
   },
   {
-    name: "设计",
+    name: "换热器设计模型",
     value: 3,
   },
   {
