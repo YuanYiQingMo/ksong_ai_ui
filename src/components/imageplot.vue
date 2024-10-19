@@ -43,6 +43,7 @@
   <script setup>
   import { ref, computed } from 'vue';
   
+  
   const point1 = ref({ x: 0, y: 0 });   
   const point2 = ref({ x: 0, y: 0 });   
   const point3 = ref(0); 
