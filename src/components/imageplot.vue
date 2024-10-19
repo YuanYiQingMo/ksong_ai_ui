@@ -24,7 +24,7 @@
   
       <div style="position: relative;">
         <img
-          src="src\assets\image2.png"  
+          src="@/assets/image2.png"  
           @click="setCoordinates"
           @mousemove="updateMouseCoordinates"  
           style="max-width: 100%; cursor: pointer;"
@@ -42,7 +42,7 @@
   
   <script setup>
   import { ref, computed } from 'vue';
-  
+
   
   const point1 = ref({ x: 0, y: 0 });   
   const point2 = ref({ x: 0, y: 0 });   

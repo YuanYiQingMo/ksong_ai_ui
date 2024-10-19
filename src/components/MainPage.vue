@@ -48,6 +48,7 @@
       </v-text-field>
     </div>
   </v-footer>
+  <imageplot></imageplot>
 </template>
 
 <script setup lang="ts">
