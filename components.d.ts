@@ -9,9 +9,11 @@ declare module 'vue' {
   export interface GlobalComponents {
     AIDialog: typeof import('./src/components/AIDialog.vue')['default']
     Imageplot: typeof import('./src/components/imageplot.vue')['default']
+    MainMenu: typeof import('./src/components/MainMenu.vue')['default']
     MainPage: typeof import('./src/components/MainPage.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Test1: typeof import('./src/components/test1.vue')['default']
+    Sidermenu: typeof import('./src/components/sidermenu.vue')['default']
+    Style: typeof import('./src/components/style.vue')['default']
   }
 }
